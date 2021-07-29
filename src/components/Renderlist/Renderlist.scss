@@ -1,0 +1,72 @@
+
+.issues{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(245, 242, 242);
+    background-color: #fafbfc;
+
+        .bugreport{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        h4{
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+    }
+
+    .spandiv{
+        width: 1200px;
+        border: 1px solid rgb(245, 242, 242);
+        background-color: #fdfdff;
+        border-radius: 5px;
+        margin: 10px 20px;
+        padding: 15px;
+        padding:  0px 50px;
+        display: flex;
+        margin-bottom: 20px;
+        flex-direction: column;
+        .body{
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .desc{
+            font-size: 16px;
+            font-weight: 500;   
+        }
+        
+        .bug1{
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 50px;
+        margin: 5px 2px;
+        padding: 5px;
+        color: #fff;
+        background-color: #EA2027;
+    }
+    .bug2{
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 50px;
+        margin: 5px 2px;
+        padding: 5px;
+        color: rgb(29, 29, 29);
+        background-color: #fa983a;
+    }
+
+    }
+}
+
+@media (max-width : 767px) {
+
+    .spandiv{
+        width: 100%;
+        margin: 20px;
+    }
+    
+}

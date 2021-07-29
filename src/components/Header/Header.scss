@@ -1,0 +1,107 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #fafbfc;
+    width: 100%;
+    height: 100px;
+   margin-top: 5rem;
+    
+    
+    .container{
+        height: 150px;
+        padding:  0px 50px;
+        display: flex;
+        margin-bottom: 40px;
+        align-items: center;
+        justify-content: space-between;
+
+        .headTitle{
+            color: blue;
+            font-size: 22px;
+            font-weight: 600;
+            margin: 0px 5px;
+            cursor: pointer;
+        }
+         .octicon{
+             margin-right: 2px;
+             align-items: center;
+             color: #fafbfc;
+         }
+
+
+
+         .right{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+ 
+           .watch{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 5px;
+            padding: 2px;
+            margin: 0px 5px;
+            border: 1px solid #e6e7e9;
+            background-color: #f3f4f6;
+            color: #000;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            &:hover{
+                background-color: #f8f8fa;
+            }
+            .micon{
+                color: #6a737d;
+            }
+            
+           } 
+
+           .star{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 5px;
+            padding: 2px;
+            margin: 0px 2px;  
+            border: 1px solid #e6e7e9;   
+            background-color: #f3f4f6;
+            color: #000;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            &:hover{
+                background-color: #f8f8fa;
+            }
+            .micon{
+                color: #6a737d;
+            }
+           }
+
+           .fork{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 5px;
+            padding: 2px;
+            border: 1px solid #e6e7e9;
+            margin: 0px 2px;
+            background-color: #f3f4f6;
+            color: #000;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            &:hover{
+                background-color: #f8f8fa;
+            }
+            .micon{
+                color: #6a737d;
+            }
+
+           }
+
+           .headTitle{
+               font-size: 12px;
+               font-weight: 500;
+               color: #24292e;
+           }
+         }
+    }
+}
